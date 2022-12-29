@@ -9,8 +9,8 @@ exports.sourceNodes = async (
     { apiKey }
 ) => {
     const { createNode } = actions;
-    const tag = 'codingdefined';
-    const result = await getAll(tag, 'blog');
+    const tag = 'kjsdrw';
+    const result = await getAll(tag, 'music');
 
     result.forEach(post => {
         const { post_id, body_markdown, ...data } = post;
